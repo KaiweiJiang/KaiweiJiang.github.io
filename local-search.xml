@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2024/01/21/hello-world/"/>
+    <url>/2024/01/21/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2024/01/21/%E4%BD%BF%E7%94%A8GithubPages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/"/>
+    <url>/2024/01/21/%E4%BD%BF%E7%94%A8GithubPages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>本地主机环境：</p><ul><li>macbook m1 pro</li><li>macOS Venture</li></ul></li><li><p>安装node.js</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">brew install node<br></code></pre></td></tr></table></figure></li><li><p>安装Hexo</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo npm install -g hexo<br></code></pre></td></tr></table></figure><img src="使用GithubPages和Hexo搭建个人博客网站/截屏2024-01-21 23.00.27.png" width=100%></li><li><p>在本地创建一个空文件夹，之后用于存储本地的md文件和相关的插图</p></li><li><p>进入刚刚创建的文件夹</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo init<br>npm install<br></code></pre></td></tr></table></figure><img src="使用GithubPages和Hexo搭建个人博客网站/截屏2024-01-21 23.12.42.png" width=100%></li><li><p>本地启动</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo g<br>hexo server<br></code></pre></td></tr></table></figure><img src="使用GithubPages和Hexo搭建个人博客网站/截屏2024-01-21 23.15.27.png" width=100%></li></ul><p>浏览器访问 <a href="http://localhost:4000，页面默认主图风格。">http://localhost:4000，页面默认主图风格。</a></p><ul><li>安装NexT<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">cd MyBlog<br>git clone https://github.com/iissnan/hexo-theme-next themes/next<br></code></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2024/01/21/%E5%9C%A8macOS%E4%BF%AE%E6%94%B9hosts%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AEgithub/"/>
+    <url>/2024/01/21/%E5%9C%A8macOS%E4%BF%AE%E6%94%B9hosts%E6%96%87%E4%BB%B6%E8%AE%BF%E9%97%AEgithub/</url>
+    
+    <content type="html"><![CDATA[<h2 id="解决ping-github-com-timeout问题"><a href="#解决ping-github-com-timeout问题" class="headerlink" title="解决ping github.com timeout问题"></a>解决ping github.com timeout问题</h2><ul><li><p>首先打开<a href="https://sites.ipaddress.com/">DNS和IPAddress查询工具</a>，分别输入以下三个域名，查询相应的IP地址</p><ul><li>github.com</li><li>github.global.ssl.fastly.net,</li><li>assets-cdn.github.com</li></ul></li><li><p>选取解析响应时间最短的DNS-IP，然后复制到private&#x2F;etc&#x2F;hosts里面。在macOS上使用命令行打开方式</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo vim /private/etc/hosts<br></code></pre></td></tr></table></figure></li><li><p>将查询到的IP地址和域名写入到hosts文件中</p><img src="在macOS修改hosts文件访问github/截屏2024-01-21 21.52.35.png" width=100%></li><li><p>测速ping github.com成功</p></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2024/01/21/%E5%9C%A8ubuntu%E5%AE%89%E8%A3%85matplotlibcpp/"/>
+    <url>/2024/01/21/%E5%9C%A8ubuntu%E5%AE%89%E8%A3%85matplotlibcpp/</url>
+    
+    <content type="html"><![CDATA[<ul><li><p>环境为ubuntu20.04远程服务器</p></li><li><p>下载地址：</p><p><a href="https://github.com/lava/matplotlib-cpp.git">https://github.com/lava/matplotlib-cpp.git</a></p></li><li><p>检查系统是否安装了python3，python3-dev，python-numpy，若没有请按照如下命令安装</p></li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt-get install python3 python3-dev python-numpy<br></code></pre></td></tr></table></figure><ul><li>编译安装</li></ul><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs shell">cd matplotlib-cpp-master<br>mkdir build &amp;&amp; cd build<br>cmake ..<br>make<br>sudo make install<br></code></pre></td></tr></table></figure><p>编译安装成功后如图下图</p><img src="在ubuntu安装matplotlibcpp/截屏2024-01-21 21.27.34.png" width = 100%><ul><li>安装后应在&#x2F;usr&#x2F;local&#x2F;include目录下看到matplotlibcpp.h文件</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
